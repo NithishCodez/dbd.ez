@@ -1,12 +1,16 @@
 {
   "name": "dbd.ez",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Powerful wrapper over discord.js enabling you to make discord bots with ease",
   "main": "src/index.js",
   "scripts": {
     "start": "node test.js"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Major-Thrust/dbd.ez"
+  },
   "author": "Nithish#6593",
   "dependencies": {
     "discord.js": "^12.5.3",
