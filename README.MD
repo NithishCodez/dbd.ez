@@ -1,6 +1,6 @@
   <br />
     <p align="center">
-    <a href="https://dbd.leref.ga"><img width="100px" src="https://cdn.discordapp.com/attachments/807418712156012594/833745929537323008/20210419_221807.jpg" alt="dbd.js" /></a>
+    <img width="100px" src="https://cdn.discordapp.com/attachments/807418712156012594/833745929537323008/20210419_221807.jpg" alt="dbd.js" />
   </p>
 
 # DBD.EZ
