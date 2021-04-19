@@ -1,6 +1,6 @@
 const discord = require("./src/index.js");
 const client = new discord({
-  token: "Nzc0NTA3ODkyNDE4MTUwNDMx.X6Yyrw.1SZskgA6WGR4GfytXLdaLmYJSgQ",
+  token: "TOKEN",
   prefix: "+",
 });
 
