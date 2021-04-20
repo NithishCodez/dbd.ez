@@ -1,6 +1,6 @@
 {
   "name": "dbd.ez",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Powerful wrapper over discord.js enabling you to make discord bots with ease",
   "main": "src/index.js",
   "scripts": {
@@ -15,5 +15,18 @@
   "dependencies": {
     "discord.js": "^12.5.3",
     "events": "^3.3.0"
-  }
+  },
+  "keywords": [
+    "discord-api",
+    "dbd.ez",
+    "dbd",
+    "discord-bot",
+    "music",
+    "bdfd",
+    "Bot Designer for Discord",
+    "discord",
+    "discordbot",
+    "discord.js",
+    "bot"
+  ]
 }
