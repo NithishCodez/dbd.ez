@@ -3,7 +3,7 @@ const { parse } = require("path");
 
 class Base extends EventEmitter {
   constructor(obj) {
-    if (!obj.token) throw new Error("Token Cannot be empty");
+    if (!obj.token) throw new Error("[DISCORD API ERROR]: Token Cannot be empty");
 
     super();
 
@@ -100,7 +100,7 @@ class Base extends EventEmitter {
         //Managing args error
         if (obj.argsError) {
           if (typeof obj.argsError !== "object")
-            throw new Error("argsError type must be a object");
+            throw new Error("[argsError]: type must be a object");
 
           var argerr;
           argerr = this.manageArgsError.manageError(args, obj.argsError, msg);
@@ -131,7 +131,7 @@ class Base extends EventEmitter {
               }
             } catch {
               console.error(
-                "[dbd.ez | ERROR]: The parsed parameter is neighter user id nor tag or name"
+                "[dbd.ez  ERROR]: The parsed parameter is neighter user id nor tag or name"
               );
             }
           }
@@ -155,7 +155,7 @@ class Base extends EventEmitter {
               }
             } catch {
               console.error(
-                "[dbd.ez | ERROR]: The parsed parameter is neighter user id nor tag or name"
+                "[dbd.ez ERROR]: The parsed parameter is neighter user id nor tag or name"
               );
             }
           }

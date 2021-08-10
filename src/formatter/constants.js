@@ -14,6 +14,10 @@ const constants = [
   {
     constant: "{author.id}",
     value: (msg) => {return (msg.author.id)}
+  },
+  {
+ constant: "{author.name}",
+ value: (msg) => {return (msg.author.username)}
   }
 ]
 

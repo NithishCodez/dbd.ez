@@ -23,9 +23,9 @@
 ### Setup
 
 ```js
-const dbd = require("dbd.ez");
+const discord = require("dbd.ez");
 
-const client = new dbd({
+const client = new discord({
   token: "TOKEN", //Your Discord Bot Token
   prefix: "-",
 });
@@ -35,7 +35,7 @@ client.command({
   reply: "{args.all}",
   argsError: {
     1: "You must send atleast one arg",
-  }, //in dbd.ez args starts from 1
+  }, //unlike js where args start from 0 in dbd.ez args start from 1 for the sake of simplicity.
 });
 ```
 
@@ -81,13 +81,14 @@ client.command({
 `{author.id}` - user id of the message author<br>
 `{args<number>}` Example: args1 - args of the message<br>
 `{args.all}` - The whole message after command
-`{args.allFrom<number>}` Example: args.allFrom2 - Whole message after the mentioned args
+`{args.allFrom<number>}` Example: args.allFrom2 - Whole message after the mentioned args<br>
+ `{author.name.}` - The command author's name<br>
 
-More constants will be added everyday, Tnx for choosing us!
+More constants will be added everyday, Thanx for choosing us!
 <br>
 
 ## Development
 
-DBD.EZ is made by [Dynastic Studios](hhttps://discord.gg/m2G7YB3ttf)
+DBD.EZ is made by [Dynastic Studios](https://discord.gg/b4Th6hJWHE)
 
-- [Discord](https://discord.gg/m2G7YB3ttf)
+- [Discord](https://discord.gg/b4Th6hJWHE)
