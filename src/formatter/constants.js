@@ -41,6 +41,12 @@ const constants = [
       return msg.content;
     },
   },
+      {
+    constant: "{mentionsfirst}",
+    value: (msg) => {
+      return msg.mentions.users.first() ? msg.mentions.users.first() : "" ;
+    },
+  },
 ];
 
 module.exports = constants;
