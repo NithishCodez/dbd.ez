@@ -47,6 +47,12 @@ const constants = [
       return msg.mentions.users.first() ? msg.mentions.users.first() : "" ;
     },
   },
+        {
+    constant: "{mentionsfirstmemobj}",
+    value: (msg) => {
+      return msg.mentions.members.first() ? msg.mentions.members.first() : "" ;
+    },
+  },
 ];
 
 module.exports = constants;
