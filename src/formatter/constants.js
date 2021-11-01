@@ -53,6 +53,12 @@ const constants = [
       return msg.mentions.members.first() ? msg.mentions.members.first() : "" ;
     },
   },
+          {
+    constant: "{authoravatar}",
+    value: (msg) => {
+      return msg.author.displayAvatarURL
+    },
+  },
 ];
 
 module.exports = constants;
