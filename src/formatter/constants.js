@@ -59,6 +59,12 @@ const constants = [
       return msg.author.displayAvatarURL
     },
   },
+  {
+    constant: "{message.content.first}",
+    value: (msg) => {
+      return msg.content.split("")[0]
+    },
+  },
 ];
 
 module.exports = constants;
